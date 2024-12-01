@@ -1,0 +1,40 @@
+body {
+    background-color: #FEF8F5;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: block;
+}
+
+h1,h2,h3,h4,h5,h6, p {
+    margin: 0;
+}
+
+header, main, footer{
+    display: flex;
+    
+}
+
+.header, .main, .footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1150px;
+}

@@ -1,0 +1,151 @@
+.texter{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1150px;
+    text-align: center;
+}
+
+.main .container:nth-child(4){
+    padding-left: 0;
+    width: 100%;
+    max-width: 1300px;
+    margin-top: 50px;
+}
+
+.title-about-us{
+    color: #EE4D47;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: 0.5s ease;
+}
+
+.subtitle-clients {
+    color: #402B2B;
+    font-size: 48px;
+    line-height: 67px;
+    margin-top: 20px;
+}
+
+.comments-container {
+    color: #402B2B;
+    background-color: white;
+    box-shadow: 0px 20px 40px 0px #EE4D471A;
+    border-radius: 10px;
+    height: 260px;
+    width: 23%;
+    padding: 60px 50px 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.comment {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.client-card {
+    display: flex;
+    align-items: center;
+}
+
+.client-img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    transition: 0.3s ease;
+}
+
+.client-name {
+    font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+    .comments-container{
+        width: 380px;
+        height: 380px;
+        justify-content: space-around;
+        transition: height 0.3s ease;
+    }
+
+    .main .container:nth-child(4){
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comments-container:nth-child(2) {
+        margin: 30px 0 30px 0;
+    }
+
+    .comment {
+        font-size: 24px;
+        transition: 0.3s ease;
+    }
+
+    .client-name {
+        font-size: 26px;
+        transition: 0.3s ease;
+    }
+
+    .client-img {
+        width: 70px;
+        height: 70px;
+        transition: 0.3s ease;
+    }
+}
+
+@media (max-width: 768px) {
+    .main .container:nth-child(4){
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comments-container:nth-child(2) {
+        margin: 30px 0 30px 0;
+    }
+
+    .comments-container{
+        width: 380px;
+        height: 220px;
+        justify-content: space-around;
+        transition: 0.3s ease;
+    }
+    
+    .main .container:nth-child(4){
+        justify-content: space-around;
+    }
+
+    .title-about-us{
+        font-size: 34px;
+        transition: 0.3s ease;
+    }
+}
+
+@media (min-width: 2000px) {
+    .comments-container{
+        height: 380px;
+        justify-content: space-around;
+        transition: height 0.3s ease;
+    }
+
+    .title-about-us{
+        font-size:40px;
+        transition: 0.3s ease;
+    }
+
+    .comment {
+        font-size: 26px;
+        transition: 0.3s ease;
+    }
+
+    .client-name {
+        font-size: 26px;
+        transition: 0.3s ease;
+    }
+
+    .client-img {
+        width: 70px;
+        height: 70px;
+        transition: 0.3s ease;
+    }
+}
